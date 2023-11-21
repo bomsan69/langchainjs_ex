@@ -1,0 +1,24 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "module": "nextnode",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/cookbook.js",
+    "dev": " node src/work.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cohere-ai": "^7.4.0",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.194"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
